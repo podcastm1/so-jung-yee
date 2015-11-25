@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sample.jk.exowexample.MainActivity">
+    <item android:id="@+id/action_settings" android:title="제목별로 보기"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_when" android:title="날짜별로 보기"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_where" android:title="장소별로 보기"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_what" android:title="행사별로 보기"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_who" android:title="태그된 사람별로 보기"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_how" android:title="목적별로 보기"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
